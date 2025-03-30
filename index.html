@@ -3,56 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio MarkDev</title>
+    <title>Mark's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-brands/css/uicons-brands.css'>
 </head>
 <body>
-
+    <!-- ENCABEZADO -->
     <header>
-        <h1>MarkDev Gg</h1>
+        <div class="nickname">
+            <a href="#">Mark Giné</a>
+        </div>
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#sobre-mi">Sobre Mí</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#discord">Discord</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
-
-    <section id="inicio">
-        <h2>Bienvenido</h2>
-        <p>Hola, soy [Tu Nombre], un desarrollador web apasionado.</p>
-    </section>
-
-    <section id="sobre-mi">
-        <h2>Sobre Mí</h2>
-        <p>Aquí puedes contar sobre tus habilidades y experiencia.</p>
-    </section>
-
-    <section id="proyectos">
-        <h2>Mis Proyectos</h2>
-        <div class="proyecto">
-            <h3>Proyecto 1</h3>
-            <p>Descripción breve del proyecto.</p>
+    <!-- SECCION #INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="content-inicio">
+            <div class="logo">
+                <img src="images/devs.jpg" alt="Ilustración colorida de símbolos relacionados con la programación,
+             incluyendo signos de menor que, mayor que, puntos, comas, llaves y líneas curvas. Los elementos están estilizados
+              con formas redondeadas y colores vivos sobre un fondo negro con una cuadrícula de puntos sutil."> 
+            </div>
+            <h1>Mark Giné</h1>
+            <h2>Progrmador Frontend Junior</h2>
+                <div class="redes">
+                    <a href="#">
+                        <i class="fi fi-brands-discord"></i>
+                    </a>
+                    <a href="https://github.com/MarkDev-Gg">
+                        <i class="fi fi-brands-github"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fi fi-brands-google"></i>
+                    </a>
+                </div>
         </div>
-        <div class="proyecto">
-            <h3>Proyecto 2</h3>
-            <p>Descripción breve del proyecto.</p>
-        </div>
     </section>
-
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <form id="contact-form">
-            <input type="text" placeholder="Tu Nombre" required>
-            <input type="email" placeholder="Tu Correo" required>
-            <textarea placeholder="Tu Mensaje" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-        <p id="mensaje-estado"></p>
-    </section>
-
-    <script src="script.js"></script>
-</body>
+</body> 
 </html>
