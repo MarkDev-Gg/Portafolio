@@ -1,67 +1,113 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
+body {
+    background-color: #303030;
+    color: #fff;
+}
+
+/* ENCABEZADO */
+
 header {
-    background: #334;
-    color: rgb(254, 254, 5);
-    padding: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #292929;
+}
+
+.nickname a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.nickname{
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nickname:hover {
+    transform: scale(1.1);
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 15px;
+    transition: 0.3s;
 }
-
+nav ul li:hover {
+    transform: scale(1.3);
+}
 nav ul li a {
-    color: rgb(255, 0, 255);
     text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition: color 0.3s;
 }
 
-section {
-    padding: 40px;
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* SECCION INICIO */
+
+.logo img {
+    margin-top: 40px;
+    width: 170px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #ffcc00;
+}
+
+.content-inicio {
     text-align: center;
-    background-color: #333;
-    color: #f4f4f4;
 }
 
-.proyecto {
-    background: white;
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 400px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    color: #333;
+.content-inicio h1 {
+    margin-top: 10px;
+    color: #ffcc00;
+    font-size: 38px;
 }
 
-form input, form textarea, form button {
-    display: block;
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
+.content-inicio h2 {
+    font-size: 15px;
+    margin-top: 5px;
+    font-size: 20px;
 }
 
-form button {
-    background: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
+.redes a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 27px;
+    margin-top: 12px;
+    width: 30px;
+    transition: .3s;
+    margin: 13px;
 }
 
-form button:hover {
-    background: #555;
+.redes a:hover {
+    transform: scale(1.4);
 }
 
-section h2 {
-    color: rgb(255, 0, 255);
+.fi-brands-discord:hover {
+    color: #5865F2;
+}
+
+.fi-brands-google:hover {
+    color: #EA4335;
+}
+
+.fi-brands-github:hover {
+    color: #181717;
 }
