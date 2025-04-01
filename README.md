@@ -4,8 +4,12 @@ Por aqui tambien ire poniendo las actualizaciones que le ire haciendo a la paigi
 
 ## Update 1.0
 Encabezado ✅
+
 Foto en la pestaña ✅
+
 ## Update 1.1
 Seccion inicio ✅
+
 Foto perfil en seccion inicio ✅
+
 Logos redes sociales ✅
