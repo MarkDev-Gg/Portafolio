@@ -13,3 +13,10 @@ Seccion inicio ✅
 Foto perfil en seccion inicio ✅
 
 Logos redes sociales ✅
+
+#Update 2
+ Seccion Sobre Mi ✅
+
+ Datos Personales ✅
+
+ Bug para moviles arreglado ✅
