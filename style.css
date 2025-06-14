@@ -52,7 +52,6 @@ nav ul li {
     transition: 0.3s;
 }
 nav ul li:hover {
-    transition: color 0.3s;
     transform: scale(1.3);
 }
 nav ul li a {
