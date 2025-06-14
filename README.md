@@ -14,7 +14,7 @@ Foto perfil en seccion inicio ✅
 
 Logos redes sociales ✅
 
-#Update 2
+## Update 2
  Seccion Sobre Mi ✅
 
  Datos Personales ✅
